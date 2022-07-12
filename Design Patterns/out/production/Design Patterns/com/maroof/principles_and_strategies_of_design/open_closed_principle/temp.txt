@@ -1,0 +1,27 @@
+OPEN-CLOSED PRINCIPLE:
+
+Classes and methods should be Open for extension and
+Close for modification
+add new functionality without changing existing code
+
+LISKOV SUBSTITUTION PRINCIPLE:
+
+Objects of a superclass can be replaceable with subclass without breaking
+the application
+methods of superclass must work with subclass without any issue
+"subclass object can be replaceable by superclass type(polymorphism) without
+breaking the functionality of superclass"
+
+INTERFACE SEGREGATION PRINCIPLE:
+
+The interface segregation principle states that
+the interface of a program should be split in a way that
+the user/client would only have access to the necessary methods related to their needs.
+
+DEPENDENCY INVERSION:
+Loose coupling, high-level and low-level classes depend on abstraction
+i.e. introduce interfaces to break dependencies between high-level and low-level classes.
+
+DEPENDENCY INJECTION:
+help to achieve loose coupling
+can be achieved through constructor, setter and interface
